@@ -34,11 +34,11 @@ describe("codedMessage", () => {
 CodedMessage = ("string") => {
     let message = 0;
     for (let i = 0; i < string.length; i++){
-        if (string.length[i]){
-            console.log(array[i])
+       return 
         }
     }
 }
+
 
 var secretCodeWord1 = "Lackadaisical"
 // Expected output: "L4ck4d41s1c4l"
@@ -57,13 +57,16 @@ var secretCodeWord3 = "Eccentric"
 // 1. Method that scans each word in an array and filters just the words that contain the letter "a"
 // 2. Conditional statement IF word in array contains "A" return word
 
-
 describe("allWordssA", () => {
     test("returns all words that contain the letter a", () => {
       expect(arrayOfWords1()).toEqual(["Apple", "Banana", "Plum", "Orange", "Kiwi"])
     })
   })
 
+allWordsA = [] => {
+    let newArray = []
+    array.map
+}
 
 var arrayOfWords1 = ["Apple", "Banana", "Plum", "Orange", "Kiwi"]
 // Expected output: ["Apple", "Banana", "Orange"]
@@ -88,6 +91,10 @@ describe("fullHouse", () => {
       expect(hand1()).toEqual("true")
     })
   })
+
+fullHouse = [] => {
+    
+}
 
 
 var hand1 = [5, 5, 5, 3, 3]
