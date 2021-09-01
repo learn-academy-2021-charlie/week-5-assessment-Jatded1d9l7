@@ -20,7 +20,8 @@ Model-view-contoller (MVC) is an architectural pattern in rails. It separates an
 
   Your answer: A relational database is one that is hosted on the local computer. There are other types of databases, but i am unsure off the top of the head.  
 
-  Researched answer: A relational database stores data points that are related to one another, and stores and gives access to the data. 
+  Researched answer: 
+  Data Points that are related to one another are stored in a relational database. Additionally, relational databases stores and gives access to the data.  
 
 
 
@@ -30,8 +31,8 @@ Model-view-contoller (MVC) is an architectural pattern in rails. It separates an
   Your answer: Object-relational mapping converts data between systems. 
 
   Researched answer: 
-  
-  Object-relational mapping is a technique that converts data between incompatable type systems using object-oriented programming languages. 
+
+  Data is converted using object-relational mapping so that it can be used between incompatable type systems. This technique uses object oriented programming. 
 
 
 
@@ -43,8 +44,9 @@ Model-view-contoller (MVC) is an architectural pattern in rails. It separates an
 
   Researched answer: A Gem is a library used in Ruby for projects. 
 
+A gem is a module library that can be used inside of a project. 
 
-A gem is a module/Library that you can install and use in every project on your server. A plugin is a module/Library that you can use inside your project. Indeed, if you make some code what you like to share you can make a gem or plugin of it. You can publish it on for example github.com.
+
 
 
 5. What are primary keys? Why are they important?
@@ -52,6 +54,8 @@ A gem is a module/Library that you can install and use in every project on your 
   Your answer: In a Key/value pair, primary keys are the objects while the values are the instances of the object. 
 
   Researched answer:
+
+Primary keys are special tables found in a relational databnase for identifying a table record. A main characteristic of a primary key is that it must include an exclusive value for each row of data and it cannot contain null values. In other words, every row must have a value to serve as the primary key.  
 
 
 
