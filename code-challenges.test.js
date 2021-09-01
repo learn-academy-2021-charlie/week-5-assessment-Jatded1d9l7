@@ -13,14 +13,12 @@
 // Then use .map to iterate through each letter of the split array
 // Set conditional statements for each condition (code word)
 
-
 var secretCodeWord1 = "Lackadaisical"
 // Expected output: "L4ck4d41s1c4l"
 var secretCodeWord2 = "Gobbledygook"
 // Expected output: "G0bbl3dyg00k"
 var secretCodeWord3 = "Eccentric"
 // Expected output: "3cc3ntr1c"
-
 
 describe("codeWord", () => {
   it("converts 'a' to 4, 'e' to 3, 'i' to 1, and 'o' to 0", () => {
@@ -47,10 +45,6 @@ const codeWord = (string) => {
 
 //-------------------- CODE BLOCK END ----------------------// Week-5-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
 
-
-
-
-
 // --------------------2) Create a function that takes in an array and returns all the words that contain the letter a.
      //// a) Create a test with an expect statement using the variable provided.
      //// b) Create the function that makes the test pass.
@@ -75,14 +69,8 @@ const fruits = (array) => {
   return array.filter(value => {
       return value.toLowerCase().includes("a")
   })
-}
-
-
+}\
 //-------------------- CODE BLOCK END ----------------------// Week-5-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
-
-
-
-
 
 
 // --------------------3) Create a function that takes in an array of 5 numbers and determines whether or not the array is a “full house”. A full house is exactly one pair and one three of a kind.
@@ -98,7 +86,6 @@ const fruits = (array) => {
 // Iterate through the array 
 // Checks for (2 like numbers)
 // Checks for (3 like numbers)
-
 
 var hand1 = [5, 5, 5, 3, 3]
 // Expected output: true
@@ -125,6 +112,4 @@ const fullHouse = (array) => {
       return true
   } else {return false}
 }
-
-
 //-------------------- CODE BLOCK END ----------------------// Week-5-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
